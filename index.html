@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/piggy.css">
+    <link rel="icon" href="https://dashboard.piggyvest.com/favicon-32x32.png">
     <title>Sign Up</title>
 </head>
 <body>
-    <img class="background-img" src="img/piggy background.jpg" alt="">
+    <img class="background-img" src="img/piggy background.jpg" alt="background">
     <header>
         <div class="piggicon">
          <embed src="piggy logo.svg" type="">
@@ -47,19 +48,20 @@
               </div>
               <div class="form-item">
                 <p>how did you hear about us? (optional)</p>
-                <select name="advert" id="advertisment">
-                  <option value="click">Click To Select</option>
-                  <option value="fb">facebook</option>
-                  <option value="twitter">twitter</option>
-                  <option value="insta">instagram</option>
-                  <option value="fnf">friends/family/coworker referral</option>
-                  <option value="search">google search</option>
-                  <option value="playstore">google playstore</option>
-                  <option value="blog">online blog</option>
-                  <option value="news">local newspaper</option>
-                  <option value="event">at an event</option>
-                  <option value="other">other</option>
-                </select>
+                <input list="advert" placeholder="Click To Select">
+                <datalist id="advert">
+                  <option value="Click To Select"></option>
+                  <option value="facebook"></option>
+                  <option value="twitter"></option>
+                  <option value="instagram"></option>
+                  <option value="friends/family/coworker referral"></option>
+                  <option value="google search"></option>
+                  <option value="google playstore"></option>
+                  <option value="online blog"></option>
+                  <option value="local newspaper"></option>
+                  <option value="at an event"></option>
+                  <option value="other"></option>
+                </datalist>
               </div>
               <div class="form-item">
                   <input type="button" value="create account">
